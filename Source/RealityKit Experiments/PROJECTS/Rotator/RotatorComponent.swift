@@ -10,9 +10,10 @@ import RealityKit
 
 struct RotatorComponent: Component {
     let speed: Float
-    let axis: RotatorAxis = .y
+    let axis: RotatorAxis
     
     init(speed: Float = 0.1, axis: RotatorAxis = .y) {
         self.speed = speed
+        self.axis = axis
     }
 }

@@ -10,25 +10,22 @@ import SwiftUI
 @main
 struct RealityKit_ExperimentsApp: App {
 
-    @State private var appModel = AppModel()
-
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(appModel)
+            RotatorDemo()
         }
         .windowStyle(.volumetric)
 
-        ImmersiveSpace(id: appModel.immersiveSpaceID) {
-            ImmersiveView()
-                .environment(appModel)
-                .onAppear {
-                    appModel.immersiveSpaceState = .open
-                }
-                .onDisappear {
-                    appModel.immersiveSpaceState = .closed
-                }
-        }
-        .immersionStyle(selection: .constant(.full), in: .full)
+//        ImmersiveSpace(id: appModel.immersiveSpaceID) {
+//            ImmersiveView()
+//                .environment(appModel)
+//                .onAppear {
+//                    appModel.immersiveSpaceState = .open
+//                }
+//                .onDisappear {
+//                    appModel.immersiveSpaceState = .closed
+//                }
+//        }
+//        .immersionStyle(selection: .constant(.full), in: .full)
     }
 }
