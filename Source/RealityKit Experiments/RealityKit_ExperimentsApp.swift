@@ -11,9 +11,16 @@ import SwiftUI
 struct RealityKit_ExperimentsApp: App {
 
     var body: some Scene {
-        WindowGroup {
-            RotatorDemo()
+        //        WindowGroup {
+        ////            RotatorDemo()
+        //            TouchableCubeView()
+        //        }
+        //        .windowStyle(.volumetric)
+        //    }
+        
+        ImmersiveSpace(id: "test") {
+            TouchableCubeView()
         }
-        .windowStyle(.volumetric)
+        .immersionStyle(selection: .constant(.mixed), in: .mixed)
     }
 }
