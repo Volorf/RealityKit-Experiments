@@ -2,6 +2,14 @@
 
 This is a series of experiments with RealityKit and VisionOS.
 
+## Touchable Cube
+
+Poke to move cube around. It casts shadow.
+
+<img src="Media/touchable_cube.gif" width="720px" />
+
+[Source](https://github.com/Volorf/RealityKit-Experiments/blob/main/Source/RealityKit%20Experiments/PROJECTS/Touchable%20Cube/TouchableCube.swift)
+
 ## Cuboidal Random Walker
 
 Did an experiment inspired by a classical exploration of randomness from the Nature Of Code book.
