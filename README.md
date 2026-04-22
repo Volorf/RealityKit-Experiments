@@ -1,6 +1,6 @@
 # RealityKit Experiments With VisionOS
 
-This is a series of experiments with RealityKit and VisionOS.
+My experiments with RealityKit and VisionOS.
 
 ## Arrows Attractor
 Attractor simulation.
