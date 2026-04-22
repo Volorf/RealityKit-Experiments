@@ -19,7 +19,8 @@ struct RealityKit_ExperimentsApp: App {
         //    }
         
         ImmersiveSpace(id: "test") {
-            TouchableCubeView()
+//            TouchableCubeView()
+            ArrowsAttractor()
         }
         .immersionStyle(selection: .constant(.mixed), in: .mixed)
     }

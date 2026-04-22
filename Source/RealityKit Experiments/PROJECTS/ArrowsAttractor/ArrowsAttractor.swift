@@ -3,7 +3,6 @@
 import SwiftUI
 import RealityKit
 import simd
-import RealityKitContent
 
 struct ArrowsAttractor: View {
     @State private var root: Entity = .init()
@@ -25,7 +24,7 @@ struct ArrowsAttractor: View {
     var body: some View {
         RealityView { content in
             arrowRoot = ModelEntity(
-                mesh: .generateCone(height: 0.06, radius: 0.03),
+                mesh: .generateCone(height: 0.04, radius: 0.02),
                 materials: [blackMat])
 
             let arrowStyle = HoverEffectComponent.HighlightHoverEffectStyle(color: .white, strength: 5.0)

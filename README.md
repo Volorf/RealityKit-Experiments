@@ -7,15 +7,9 @@ Attractor simulation.
 - [Source](https://github.com/Volorf/RealityKit-Experiments/blob/main/Source/RealityKit%20Experiments/PROJECTS/ArrowsAttractor/ArrowsAttractor.swift)
 - [Learn More](https://x.com/Volorf/status/2026622007010324788)
 
-<!-- <img src="Media/arrows_attractor.gif" width="720px" /> -->
+<img src="Media/arrows.gif" width="720px" />
 
 ## Touchable Cube
-Poke to move a cube around. It casts shadow.
-- [Source](https://github.com/Volorf/RealityKit-Experiments/blob/main/Source/RealityKit%20Experiments/PROJECTS/Touchable%20Cube/TouchableCube.swift)
-- [Learn More](https://x.com/Volorf/status/2024071409010405466)
-
-<img src="Media/touchable_cube.gif" width="720px" />
-
 Poke to move a cube around. It casts shadow.
 - [Source](https://github.com/Volorf/RealityKit-Experiments/blob/main/Source/RealityKit%20Experiments/PROJECTS/Touchable%20Cube/TouchableCube.swift)
 - [Learn More](https://x.com/Volorf/status/2024071409010405466)
